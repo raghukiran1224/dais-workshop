@@ -1,0 +1,24 @@
+\section{Introduction}
+\label{sec:intro}
+
+Problem: Federated setting, different parties exist and different resources available with constraints
+on these resources. How to split a neural network to address these resource constraints?
+
+Challenge in a federated setting and edge is that the edge has limited resources. For example, party A
+may provide access to party B for only limited amount of resources to ensure that its clients' needs are met.
+Neural networks have become quite prevelant, however are resource intensive. One way to improve the resource
+consumption is to reduce the footprint of the neural network (e.g., TFLite). This does not always solve the
+problem as depending on the resource availability, the network may not get executed at all. 
+
+We examine the problem of scoring neural networks in a federated setting with resource constraints.
+Idea: Splitting of the neural network layers across multiple nodes. Evaluate the initial part in party A and then
+use the output with confidence metric to determine partial information on the task at hand. This is
+based on the resource consumption for the portion of the task. Then, depending on the need and availability of 
+resources, move to the next portion of the computation on a different node (possibly in one's own party, when it becomes
+available). More details of this will be in scenario section (TODO: Richard).
+
+The splitting and conditional evaluation is explained in Splitting section (TODO: Kaushik)
+
+Can this be extended to using Spiking (TODO: Kaushik)
+
+Conclusions
