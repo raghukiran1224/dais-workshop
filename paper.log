@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.10)  28 FEB 2019 10:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.10)  18 MAR 2019 08:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -411,8 +411,40 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7.69997> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5.5> on input line 38.
- (./intro.tex) (./scenario.tex) (./splitting.tex) (./spiking.tex)
-(./conclusion.tex)
+ (./intro.tex) (./scenario.tex [1{/usr/local/texlive/2018basic/texmf-var/fonts/
+map/pdftex/updmap/pdftex.map}
+
+
+]
+<fig1.png, id=8, 1406.25375pt x 1301.86375pt>
+File: fig1.png Graphic file (type png)
+<use fig1.png>
+Package pdftex.def Info: fig1.png  used on input line 15.
+(pdftex.def)             Requested size: 252.84283pt x 234.06712pt.
+
+Overfull \hbox (0.84283pt too wide) in paragraph at lines 15--16
+ [][] 
+ []
+
+) (./splitting.tex
+<CDL_1.png, id=10, 315.0972pt x 174.4116pt>
+File: CDL_1.png Graphic file (type png)
+<use CDL_1.png>
+Package pdftex.def Info: CDL_1.png  used on input line 14.
+(pdftex.def)             Requested size: 232.19843pt x 128.52498pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 18.
+) (./spiking.tex
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 5.
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+ [2 <./fig1.png> <./CDL_1.png>]) (./conclusion.tex) (./paper.bbl [3])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -424,26 +456,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-(./paper.aux) ) 
+[4] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3270 strings out of 494091
- 50982 string characters out of 6163523
- 116747 words of memory out of 5000000
- 6919 multiletter control sequences out of 15000+600000
- 34217 words of font info for 68 fonts, out of 8000000 for 9000
+ 3360 strings out of 494091
+ 52509 string characters out of 6163523
+ 124934 words of memory out of 5000000
+ 6999 multiletter control sequences out of 15000+600000
+ 35353 words of font info for 69 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 41i,11n,35p,268b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018basic/texmf-dist/fonts/enc/dvips/base/8r
-.enc}</usr/local/texlive/2018basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-</usr/local/texlive/2018basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (1 page, 29398 bytes).
+ 41i,11n,35p,2071b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018basic/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}</usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/urw/times/u
+tmri8a.pfb>
+Output written on paper.pdf (4 pages, 380122 bytes).
 PDF statistics:
- 17 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
