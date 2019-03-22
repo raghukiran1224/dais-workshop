@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 MAR 2019 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 MAR 2019 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -331,7 +331,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(./intro.tex) (./scenario.tex
+(./abstract.tex) (./intro.tex) (./scenario.tex
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
@@ -347,10 +347,10 @@ Missing character: There is no ù in font ptmr7t!
  [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] <fig1.png, id=8, 1406.25375pt x 1301.86375pt>
+]
+<fig1.png, id=10, 1406.25375pt x 1301.86375pt>
 File: fig1.png Graphic file (type png)
-
-<use fig1.png>
+ <use fig1.png>
 Package pdftex.def Info: fig1.png used on input line 15.
 (pdftex.def)             Requested size: 252.84283pt x 234.06712pt.
 
@@ -358,7 +358,7 @@ Overfull \hbox (0.84283pt too wide) in paragraph at lines 15--16
  [][] 
  []
 
-) (./splitting.tex <CDL_1.png, id=10, 315.0972pt x 174.4116pt>
+) (./splitting.tex <CDL_1.png, id=12, 315.0972pt x 174.4116pt>
 File: CDL_1.png Graphic file (type png)
  <use CDL_1.png>
 Package pdftex.def Info: CDL_1.png used on input line 14.
@@ -369,21 +369,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 18.
 
 [2 <./fig1.png> <./CDL_1.png>]) (./spiking.tex
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 5.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 3.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
-) (./related.tex [3]) (./conclusion.tex) (./paper.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-[5]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+) (./related.tex [3]) (./conclusion.tex [4]) (./ack.tex) (./paper.bbl [5]
 LaTeX Font Info:    Try loading font information for OML+ptm on input line 287.
 
- (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlptm.fd
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <8> not available
@@ -421,11 +418,11 @@ Before submitting the final camera ready copy, remember to:
 
 ] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3367 strings out of 492995
- 52745 string characters out of 6132704
- 127199 words of memory out of 5000000
+ 3374 strings out of 492995
+ 52803 string characters out of 6132704
+ 125199 words of memory out of 5000000
  6883 multiletter control sequences out of 15000+600000
- 32297 words of font info for 62 fonts, out of 8000000 for 9000
+ 34500 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,8n,35p,2071b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.en
@@ -434,12 +431,14 @@ c}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (6 pages, 402896 bytes).
+local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (6 pages, 422552 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
