@@ -1,24 +1,9 @@
 \section{Introduction}
 \label{sec:intro}
+In coalition operations, mission commanders face the challenge of gaining adequate situational understanding to support decision making. In such operations, analytic and computational resources may be spread across different units. The resources may be limited in terms of compute power and energy usage. Communication between services is challenging, as networks are formed dynamically and will be both noisy and severely bandwidth-constrained. Analytic tools must therefore be implemented around these constraints, while still providing useful information to analysts and mission commanders.
 
-Problem: Federated setting, different parties exist and different resources available with constraints
-on these resources. How to split a neural network to address these resource constraints?
+Deep neural networks (DNNs) have emerged as a powerful tool for a broad variety of analytical tasks including classification, object recognition, anomaly detection, and time-series prediction~\cite{Goodfellow:2016}. As the current state-of-the-art tool in these areas, their deployment to aid coalition situational understanding is inevitable. The above-mentioned constraints on computation and energy use at edge devices in a coalition network will severely limit the capabilities of edge-deployed DNNs, which tend to perform better with increasing depth and thus increasing resource requirements. However, sending data back to the cloud for processing will usually not be possible due to network transfer limitations, so running the DNNs at the edge is still preferable.
 
-Challenge in a federated setting and edge is that the edge has limited resources. For example, party A
-may provide access to party B for only limited amount of resources to ensure that its clients' needs are met.
-Neural networks have become quite prevelant, however are resource intensive. One way to improve the resource
-consumption is to reduce the footprint of the neural network (e.g., TFLite). This does not always solve the
-problem as depending on the resource availability, the network may not get executed at all. 
+We propose a new approach to running DNNs on coalition networks that is designed both to be compatible with the various implementation constraints and to allow appropriately deep networks for good task-performance. We build on ideas developed by Panda et al., who propose executing a subset of a full DNN's layers until adequate confidence is reached, rather than passing the input data through every network layer~\cite{panda2016conditional, panda2017energy}. This approach can reduce computation and energy consumption without reducing task performance. We propose extending this idea to evaluate different DNN layers on different edge devices depending on their availability and computational capabilities.
 
-We examine the problem of scoring neural networks in a federated setting with resource constraints.
-Idea: Splitting of the neural network layers across multiple nodes. Evaluate the initial part in party A and then
-use the output with confidence metric to determine partial information on the task at hand. This is
-based on the resource consumption for the portion of the task. Then, depending on the need and availability of 
-resources, move to the next portion of the computation on a different node (possibly in one's own party, when it becomes
-available). More details of this will be in scenario section (TODO: Richard).
-
-The splitting and conditional evaluation is explained in Splitting section (TODO: Kaushik)
-
-Can this be extended to using Spiking (TODO: Kaushik)
-
-Conclusions
+In the next section, we outline the motivating scenario behind this proposal and describe at a high level how DNN evaluation could be split across edge devices. We provide a detailed account of the splitting and evaluation methods in section \ref{sec:conditional}. These ideas are then extended to the case of spiking neural networks in section \ref{sec:spiking}, as these offer a promising way to further reduce the energy consumption and data transfer requirements of the proposed paradigm. Finally we provide some discussion of the approach, raise potential implementation issues, and propose avenues for further research.
