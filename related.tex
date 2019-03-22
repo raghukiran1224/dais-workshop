@@ -1,0 +1,44 @@
+\section{Related Work}
+\label{sec:related}
+Prior works closely related to CDLNs and SNNs have been extensively
+referenced in the above sections. Previous works on addressing the
+broader resource challenges for DNNs fall into three main categories:
+(a) compressing the DNN models to reduce their footprint, (b)
+branching and early-exit to cut down the cost of inference, and (c)
+algorithmic optimizations in the compute-intensive parts of the
+training and inference steps.  In the following, we constrast the
+proposed ideas of this paper with these works.
+
+\noindent{Model compression} Network compression schemes aim to reduce
+the the total number of model parameters of a deep network and thus
+reduce the resources required to perform inference. A pruning approach
+to remove network connections having small contributions is one of the
+common techniques \cite{Han-DeepCC-2015}. SqueezeNet achieves
+AlexNet-level accuracy on ImageNet with 50x fewer parameters and
+models smaller than 0.5MB using downsampling techniques
+\cite{SqueezeNet-2016}. Whereas compression has benefits in terms of
+resource consumption, thisa paper goes further in distributing network
+layers across devices with CDLN-based early exits on top of SNN-based
+architectures.
+
+\noindent{Early exit} With the purpose of regularizing the main
+network, Szegedy et al. \cite{Szegedy-regluar-2015} introduced the
+concept of adding softmax branches in the middle layers of their
+inception module. BranchyNet \cite{BranchyNet-2016} extends CDLN by
+jointly training early exit branch networks. Recently, thin vertical
+sub-networks, as opposed to shallow sub-networks as achieved with
+CDLN, are proposed to enable ``anytime'' prediction according to
+resource availability \cite{Lee-Anytime-2018}.  We leverage the key
+ideas of CDLN in this paper and introduce horizontal slicing across
+multiple edge nodes and leverage SNNs to reduce footprint and resource
+requirements.
+
+\noindent{Algorithmic optimizations} FFTs have been widely used for
+efficient convolution on large convolutional filters
+\cite{Mathieu-Fast-2014}. Building on this, faster algorithms
+specifically for smaller 3x3 convolutional filters (which are used
+extensively in VGGNet and ResNet), and smaller batch sizes
+specifically important in an edge scenario have been proposed
+\cite{Lavin-Fast-2016}. These improvements are relevant and orthogonal
+to the CDLN paradigm with SNN-based architectures.
+
