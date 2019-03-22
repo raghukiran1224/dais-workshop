@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 MAR 2019 17:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 MAR 2019 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -331,14 +331,6 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 38.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 38.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 38.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 38.
-
 (./intro.tex) (./scenario.tex
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -375,7 +367,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 18.
-) (./spiking.tex [2 <./fig1.png> <./CDL_1.png>]
+
+[2 <./fig1.png> <./CDL_1.png>]) (./spiking.tex
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 5.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -383,16 +376,19 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
-) (./related.tex [3]) (./conclusion.tex) (./paper.bbl [4]
+) (./related.tex [3]) (./conclusion.tex) (./paper.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+[5]
 LaTeX Font Info:    Try loading font information for OML+ptm on input line 287.
 
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlptm.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 287.
- [5]
+
 Underfull \hbox (badness 3000) in paragraph at lines 322--324
 []\OT1/ptm/m/n/8 A. Dhu-rand-har, V. Iyen-gar, R. Luss, and K. Shan-mugam, ``A
  []
@@ -425,13 +421,13 @@ Before submitting the final camera ready copy, remember to:
 
 ] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3389 strings out of 492995
- 53064 string characters out of 6132704
+ 3367 strings out of 492995
+ 52745 string characters out of 6132704
  127199 words of memory out of 5000000
- 6902 multiletter control sequences out of 15000+600000
- 35353 words of font info for 69 fonts, out of 8000000 for 9000
+ 6883 multiletter control sequences out of 15000+600000
+ 32297 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,35p,2071b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,8n,35p,2071b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.en
 c}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
@@ -440,7 +436,7 @@ sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (6 pages, 401390 bytes).
+Output written on paper.pdf (6 pages, 402896 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
