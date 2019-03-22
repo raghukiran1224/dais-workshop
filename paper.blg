@@ -8,51 +8,58 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
+Warning--I didn't find a database entry for "Han-DeepCC-2015"
+Warning--I didn't find a database entry for "SqueezeNet-2016"
+Warning--I didn't find a database entry for "Szegedy-regluar-2015"
+Warning--I didn't find a database entry for "BranchyNet-2016"
+Warning--I didn't find a database entry for "Lee-Anytime-2018"
+Warning--I didn't find a database entry for "Mathieu-Fast-2014"
+Warning--I didn't find a database entry for "Lavin-Fast-2016"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty booktitle in panda2016conditional
 
 Done.
-You've used 45 entries,
+You've used 49 entries,
             4087 wiz_defined-function locations,
-            1071 strings with 16765 characters,
-and the built_in function-call counts, 34246 in all, are:
-= -- 2737
-> -- 907
-< -- 251
-+ -- 478
-- -- 170
-* -- 1649
-:= -- 5060
-add.period$ -- 98
-call.type$ -- 45
-change.case$ -- 45
-chr.to.int$ -- 549
-cite$ -- 46
-duplicate$ -- 2531
-empty$ -- 2801
-format.name$ -- 215
-if$ -- 8048
+            1104 strings with 17695 characters,
+and the built_in function-call counts, 36548 in all, are:
+= -- 2906
+> -- 989
+< -- 257
++ -- 516
+- -- 189
+* -- 1760
+:= -- 5429
+add.period$ -- 107
+call.type$ -- 49
+change.case$ -- 49
+chr.to.int$ -- 558
+cite$ -- 50
+duplicate$ -- 2718
+empty$ -- 3004
+format.name$ -- 237
+if$ -- 8574
 int.to.chr$ -- 0
-int.to.str$ -- 45
-missing$ -- 454
-newline$ -- 162
-num.names$ -- 45
-pop$ -- 1093
+int.to.str$ -- 49
+missing$ -- 495
+newline$ -- 174
+num.names$ -- 49
+pop$ -- 1200
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2651
+skip$ -- 2819
 stack$ -- 0
-substring$ -- 1389
-swap$ -- 2003
-text.length$ -- 68
+substring$ -- 1414
+swap$ -- 2127
+text.length$ -- 71
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 45
+type$ -- 49
 warning$ -- 1
-while$ -- 150
-width$ -- 47
-write$ -- 455
-(There was 1 warning)
+while$ -- 159
+width$ -- 51
+write$ -- 490
+(There were 8 warnings)
