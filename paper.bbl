@@ -21,6 +21,7 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+<<<<<<< HEAD
 \bibitem{Goodfellow:2016}
 I.~Goodfellow, Y.~Bengio, and A.~Courville, \emph{Deep Learning}.\hskip 1em
   plus 0.5em minus 0.4em\relax MIT Press, 2016,
@@ -36,6 +37,8 @@ P.~Panda, A.~Sengupta, and K.~Roy, ``Conditional deep learning for
   learning,'' \emph{ACM Journal on Emerging Technologies in Computing Systems
   (JETC)}, vol.~13, no.~3, p.~33, 2017.
 
+=======
+>>>>>>> d3dc63d932543d90a8e63565e37a6b7c54950ab8
 \bibitem{endsley1995toward}
 M.~R. Endsley, ``Toward a theory of situation awareness in dynamic systems,''
   \emph{Human factors}, vol.~37, no.~1, pp. 32--64, 1995.
@@ -78,6 +81,19 @@ C.~Szegedy, W.~Liu, Y.~Jia, P.~Sermanet, S.~Reed, D.~Anguelov, D.~Erhan,
   \emph{The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   June 2015.
 
+<<<<<<< HEAD
+=======
+\bibitem{panda2016conditional}
+P.~Panda, A.~Sengupta, and K.~Roy, ``Conditional deep learning for
+  energy-efficient and enhanced pattern recognition.''\hskip 1em plus 0.5em
+  minus 0.4em\relax IEEE, 2016, pp. 475--480.
+
+\bibitem{panda2017energy}
+------, ``Energy-efficient and improved image recognition with conditional deep
+  learning,'' \emph{ACM Journal on Emerging Technologies in Computing Systems
+  (JETC)}, vol.~13, no.~3, p.~33, 2017.
+
+>>>>>>> d3dc63d932543d90a8e63565e37a6b7c54950ab8
 \bibitem{krizhevsky2012imagenet}
 A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton, ``Imagenet classification with
   deep convolutional neural networks,'' in \emph{Advances in neural information
@@ -272,6 +288,49 @@ G.~Srinivasan and K.~Roy, ``Restocnet: Residual stochastic binary convolutional
   spiking neural network for memory-efficient neuromorphic computing,''
   \emph{Frontiers in Neuroscience}, vol.~13, p. 189, 2019.
 
+<<<<<<< HEAD
+=======
+\bibitem{Han-DeepCC-2015}
+\BIBentryALTinterwordspacing
+S.~Han, H.~Mao, and W.~J. Dally, ``Deep compression: Compressing deep neural
+  network with pruning, trained quantization and huffman coding,'' \emph{CoRR},
+  vol. abs/1510.00149, 2015. [Online]. Available:
+  \url{http://arxiv.org/abs/1510.00149}
+\BIBentrySTDinterwordspacing
+
+\bibitem{SqueezeNet-2016}
+\BIBentryALTinterwordspacing
+F.~N. Iandola, M.~W. Moskewicz, K.~Ashraf, S.~Han, W.~J. Dally, and K.~Keutzer,
+  ``Squeezenet: Alexnet-level accuracy with 50x fewer parameters and
+  {\textless}1mb model size,'' \emph{CoRR}, vol. abs/1602.07360, 2016.
+  [Online]. Available: \url{http://arxiv.org/abs/1602.07360}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Szegedy-regluar-2015}
+C.~Szegedy, W.~Liu, Y.~Jia, P.~Sermanet, S.~E. Reed, D.~Anguelov, D.~Erhan,
+  V.~Vanhoucke, and A.~Rabinovich, ``Going deeper with convolutions,''
+  \emph{2015 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, pp. 1--9, 2015.
+
+\bibitem{BranchyNet-2016}
+S.~Teerapittayanon, B.~McDanel, and H.~T. Kung, ``Branchynet: Fast inference
+  via early exiting from deep neural networks,'' \emph{2016 23rd International
+  Conference on Pattern Recognition (ICPR)}, pp. 2464--2469, 2016.
+
+\bibitem{Lee-Anytime-2018}
+H.~Lee and J.~Shin, ``Anytime neural prediction via slicing networks
+  vertically,'' \emph{CoRR}, vol. abs/1807.02609, 2018.
+
+\bibitem{Mathieu-Fast-2014}
+M.~Mathieu, M.~Henaff, and Y.~LeCun, ``Fast training of convolutional networks
+  through ffts,'' \emph{CoRR}, vol. abs/1312.5851, 2014.
+
+\bibitem{Lavin-Fast-2016}
+A.~Lavin, ``Fast algorithms for convolutional neural networks,'' \emph{2016
+  IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, pp.
+  4013--4021, 2016.
+
+>>>>>>> d3dc63d932543d90a8e63565e37a6b7c54950ab8
 \bibitem{jacob2018quantization}
 B.~Jacob, S.~Kligys, B.~Chen, M.~Zhu, M.~Tang, A.~Howard, H.~Adam, and
   D.~Kalenichenko, ``Quantization and training of neural networks for efficient

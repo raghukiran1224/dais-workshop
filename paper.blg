@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: paper.aux
 The style file: IEEEtran.bst
@@ -21,6 +21,7 @@ Warning--I didn't find a database entry for "Lavin-Fast-2016"
 Warning--empty booktitle in panda2016conditional
 
 Done.
+<<<<<<< HEAD
 You've used 49 entries,
             4087 wiz_defined-function locations,
             1104 strings with 17695 characters,
@@ -63,3 +64,47 @@ while$ -- 159
 width$ -- 51
 write$ -- 490
 (There were 8 warnings)
+=======
+You've used 56 entries,
+            4087 wiz_defined-function locations,
+            1132 strings with 18966 characters,
+and the built_in function-call counts, 41149 in all, are:
+= -- 3276
+> -- 1124
+< -- 285
++ -- 588
+- -- 216
+* -- 1981
+:= -- 6159
+add.period$ -- 121
+call.type$ -- 56
+change.case$ -- 56
+chr.to.int$ -- 621
+cite$ -- 57
+duplicate$ -- 3064
+empty$ -- 3359
+format.name$ -- 270
+if$ -- 9634
+int.to.chr$ -- 0
+int.to.str$ -- 56
+missing$ -- 557
+newline$ -- 199
+num.names$ -- 56
+pop$ -- 1351
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 3172
+stack$ -- 0
+substring$ -- 1568
+swap$ -- 2388
+text.length$ -- 78
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 56
+warning$ -- 1
+while$ -- 175
+width$ -- 58
+write$ -- 559
+(There was 1 warning)
+>>>>>>> d3dc63d932543d90a8e63565e37a6b7c54950ab8
